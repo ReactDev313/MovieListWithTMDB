@@ -1,0 +1,88 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+}
+
+#page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    margin-top: 20px;
+    overflow: hidden;
+
+    &-headline {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: left;
+        padding-left: 40px;
+    }
+}
+
+.row-with-columns {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.page-hr {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page_headline {
+    margin-top: 25px;
+    text-align: center;
+
+    h1 {
+        font-weight: 500;
+        font-size: 3em;
+        color: rgb(36, 36, 36);
+    }
+
+    p {
+        font-weight: 100;
+        margin-top: 10px;
+    }
+}
+
+
+
+.dialog-enter {
+    opacity: 0.01;
+    transform: scale(1.1);
+  }
+  
+  .dialog-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 300ms;
+  }
+  
+  .dialog-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .dialog-exit-active {
+    opacity: 0.01;
+    transform: scale(1.1);
+    transition: all 300ms;
+  }

@@ -1,0 +1,32 @@
+.movie-card {
+
+   &_text-content {
+
+       margin-top: 15px;
+       color: #fff;
+       font-weight: 100;
+
+       &_title {
+           font-weight: 100;
+           font-size: 1.5em;
+           color: black;
+
+           &:hover {
+               opacity: .5;
+           }
+       }
+
+       &_sub {
+           margin-top: 5px;
+           color: gray;
+           font-size: .9em;
+       }
+   }
+}
+
+.movie_poster {
+    &:hover .poster_play {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

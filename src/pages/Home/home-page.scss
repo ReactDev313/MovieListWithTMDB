@@ -1,0 +1,20 @@
+.btn {
+    padding: 10px 20px;
+    background: #000;
+    border: none;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2em;
+
+    transition: all .3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+    backface-visibility: hidden;
+
+    &:hover {
+        background: transparent;
+        border-color: #000;
+        color: #000;
+        transform: scale(.95);
+    }
+}
